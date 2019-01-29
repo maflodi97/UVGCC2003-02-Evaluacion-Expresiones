@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="420267cc-e7ec-4002-8430-27adae3c67d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/Pila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EvaluadorPostfix/src/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluadorPostfix/src/Calculadora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/Pila.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/Pila.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="612">
+              <caret line="45" column="75" lean-forward="true" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,20 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/Pila.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding>
-                <element signature="e#161#167#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-              </folding>
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -47,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Calculadora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="714">
+              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -94,8 +87,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfixTest.java" />
-        <option value="$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfix.java" />
+        <option value="$PROJECT_DIR$/EvaluadorPostfix/src/Calculadora.java" />
         <option value="$PROJECT_DIR$/EvaluadorPostfix/src/Main/Pila.java" />
+        <option value="$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfix.java" />
       </list>
     </option>
   </component>
@@ -111,7 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,7 +126,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +136,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548732640237" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548805340837" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -180,18 +174,20 @@
       <option name="presentableId" value="Default" />
       <updated>1548711154021</updated>
       <workItem from="1548711155854" duration="2230000" />
-      <workItem from="1548730203913" duration="2406000" />
+      <workItem from="1548730203913" duration="2498000" />
+      <workItem from="1548775886486" duration="130000" />
+      <workItem from="1548802574162" duration="2052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4636000" />
+    <option name="totallyTimeSpent" value="6910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -233,6 +229,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/iPila.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/iCalculadora.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -242,40 +245,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Calculadora.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/iPila.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="714">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/Pila.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="45" column="75" lean-forward="true" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
           <folding>
-            <element signature="e#161#167#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -22,7 +22,7 @@ public class EvaluadorPostfix{
         FileReader fr = null;
         String path = "";
         //  tambien podria ser pasado como arg pero no se que es mas facil
-        //  para mis auxiliares.
+        //  para los auxiliares.
         //  String path = args[0];
 
 
@@ -43,7 +43,7 @@ public class EvaluadorPostfix{
         } catch(IOException e){
             //} catch(IOException | FileNotFoundException e){
             //  podriamos poner Multicatch exceptions pero en este caso
-            // FNFExcep es subclassed de IOExcep entonces suficiente con una.
+            // FNFExcep es subclassed de IOExcep entonces cuenta por ambas.
             e.printStackTrace();
         }
 

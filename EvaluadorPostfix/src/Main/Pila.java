@@ -3,11 +3,11 @@
 import java.util.Vector;
 
 public class Pila implements iPila<String> {
-    //  no se, todos estos metodos ya existen.
+    //  todos estos metodos ya existen.
     //  Puse String como generic como placeholder pero ahi
     //  veremos a que lo cambiamos
 
-    Vector<String> vec = new Vector<String>();
+    Vector<String> vec = new Vector<>();
     //  implementacion de generics aunque solo existe un ADT.
 
     public void push(String obj){

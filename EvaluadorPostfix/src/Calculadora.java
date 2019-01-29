@@ -13,7 +13,7 @@ public class Calculadora implements iCalculadora{
      * @param b double segundo dígito a sumar
      * @return double resultado entre la suma entre a y b
      */
-    @Override
+
     public double sumar(double a, double b) {
         return a + b;
     }
@@ -24,7 +24,7 @@ public class Calculadora implements iCalculadora{
      * @param b double valor a restar al primer número
      * @return double resultado entre la resta de a (primer número) y b (segundo número)
      */
-    @Override
+
     public double restar(double a, double b) {
         return a - b;
     }
@@ -35,7 +35,7 @@ public class Calculadora implements iCalculadora{
      * @param b double segundo número a multiplicar
      * @return double resultado de la multiplicación entre los dos números
      */
-    @Override
+
     public double multiplicar(double a, double b) {
         return a * b;
     }
@@ -46,9 +46,13 @@ public class Calculadora implements iCalculadora{
      * @param b double divisor
      * @return double resultado entre los dos números
      */
-    @Override
+
     public double dividir(double a, double b) {
-        return (double)a / (double)b;
+        if (b != 0) {
+            return a / b;
+        } else {
+            return 0;
+        }
     }
     
 }
