@@ -58,11 +58,4 @@ implements iPila<E> {
         return this.vec.size();
     }
 
-    /**
-     * No entiendo que hace este metodo, o para qu� lo usariamos.... :/
-     * .. Al momento de instanciar el Stack no sabemos exactamente el tamaño de nuestro
-     */
-    public void crecer(int n){
-        this.vec.setSize(n);
-    }
 }

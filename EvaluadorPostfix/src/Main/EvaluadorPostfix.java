@@ -24,6 +24,8 @@ public class EvaluadorPostfix{
         //  tambien podria ser pasado como arg pero no se que es mas facil
         //  para los auxiliares.
         //  String path = args[0];
+        Pila p = new Pila();
+        iCalculadora calc = new Calculadora();
 
 
         try {
@@ -33,9 +35,8 @@ public class EvaluadorPostfix{
             String line;
             // while lines.
 
-
             while ((line = br.readLine()) != null){
-                //  process line, lee la linea actual en el bufferedreader
+                //  process line, lee la linea actual del bufferedreader
                 //  asigna a String line, si asigna null ya no hay mas lineas.
                 for (char c: line.toCharArray()){
                     /*
