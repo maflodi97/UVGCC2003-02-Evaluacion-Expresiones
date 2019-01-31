@@ -7,6 +7,7 @@ package Main;
  */
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
@@ -24,48 +25,58 @@ public class EvaluadorPostfix{
         //final String path = "data.txt";
         
         
-        //Los delimitadores eliminaran los caracteres no deseados al momento de separar la informacion
         StringTokenizer token = new StringTokenizer(getDataFile(),DELIMITADOR);
-        
+
         while(token.hasMoreTokens()){
-            System.out.println(token.nextToken()); //cambiar esto por el metodo que agrega a la pila
+            //System.out.println(token.nextToken()); //cambiar esto por el metodo que agrega a la pila
+        
+            //implementar el llenado del stack
+            
+            /*
+            Utilizar esta parte en el flujo que interactua con el stack
+            
+            
+            for (char c: linea.toCharArray()){
+                        if (c == '+' || c == '-' || c == '/' || c == '*'){
+                            // si esto se cumple es un operador
+
+                        } else if (c == ' '){
+                            continue;
+                        } else if (!Integer.parseInt(c)){
+
+                        } else {
+                            
+                        }
+                    }
+            
+            
+            //O utilizar algo más simple ya que se quitan letras del abecedario, signos, espacios, etc.
+            switch(token.hasMoreTokens()){
+            case "+":
+                break;
+            case "-":
+                break;
+            case "*":
+                break;
+            case "/":
+                break;
+        }
+            
+            
+            
+            */
         }
         
         
-        //  tambien podria ser pasado como arg pero no se que es mas facil
-        //  para los auxiliares.
-        //  String path = args[0];
         
-//        try {
-//            fr = new FileReader(path);
-//            br = new BufferedReader(fr);
-//
-//            String line;
-//            // while lines.
-//
-//
-//            while ((line = br.readLine()) != null){
-//                //  process line, lee la linea actual en el bufferedreader
-//                //  asigna a String line, si asigna null ya no hay mas lineas.
-//                for (char c: line.toCharArray()){
-//                    /*
-//                    Asignar primer char a Stack luego de revisar su tipo?
-//                    0 - 9
-//                    operadores
-//                    espacio
-//                    else / default
-//                     */
-//                }
-//            }
-//
-//        } catch(IOException e){
-//            //} catch(IOException | FileNotFoundException e){
-//            //  podriamos poner Multicatch exceptions pero en este caso
-//            // FNFExcep es subclassed de IOExcep entonces cuenta por ambas.
-//            e.printStackTrace();
-//        }
-            
+        
+        
+        
+        
+        
+       
     }
+
     
     /***
      * Metodo para obtener en un string toda la información contenida dentro del archivo .txt
@@ -82,22 +93,11 @@ public class EvaluadorPostfix{
                 
                 
                 reader = new BufferedReader(new FileReader(PATH_DATOS));
+                
                 while((linea = reader.readLine()) != null){
                     //concatenamos con un tabular la lectura de la linea,
                     //el tabular se eliminara al separar las expresiones.
-                    
                     datos += linea + "\t";
-                    for (char c: linea.toCharArray()){
-                        if (c == '+' || c == '-' || c == '\\' || c == '*'){
-                            // si esto se cumple es un operador
-
-                        } else if (c == ' '){
-                            continue;
-                        } else if (Integer.parseInt(c)){
-
-                        }
-                    }
-                
                 }
                 
                 reader.close();
