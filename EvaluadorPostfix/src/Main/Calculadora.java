@@ -1,3 +1,5 @@
+package Main;
+
 
 /**
  * Clase que utiliza la implementación de la interfaz de iCalculadora
@@ -48,11 +50,12 @@ public class Calculadora implements iCalculadora{
      */
 
     public double dividir(double a, double b) {
-        if (b != 0) {
-            return a / b;
-        } else {
-            return 0;
-        }
+//        if (b != 0) {
+//            return (double) a / (double) b;
+//        } else {
+//            return 0;
+//        }
+        return(b == 0)? 0.0 : (a / b);
     }
     
 }

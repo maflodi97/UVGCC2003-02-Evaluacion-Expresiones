@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="420267cc-e7ec-4002-8430-27adae3c67d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EvaluadorPostfix/src/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EvaluadorPostfix/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluadorPostfix/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/Calculadora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/Pila.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/Pila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/iCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/iCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/iPila.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluadorPostfix/src/Main/iPila.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="799">
+              <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -31,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/Pila.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="559">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -40,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/Calculadora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="153">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -59,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/iPila.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -182,7 +183,7 @@
       <workItem from="1548802574162" duration="2322000" />
       <workItem from="1548807249543" duration="3025000" />
       <workItem from="1548863611802" duration="557000" />
-      <workItem from="1548893612522" duration="3717000" />
+      <workItem from="1548893612522" duration="3881000" />
     </task>
     <task id="LOCAL-00001" summary="EvaluadorPostfix.java &#10;- Estrucutura de lectura de archivos, bufferreader y filereader&#10;&#10;Calculadora.java&#10;- Cambio a la division para divisiones por 0&#10;&#10;Inicio de estructura para Pila.java">
       <created>1548805356722</created>
@@ -195,11 +196,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14479000" />
+    <option name="totallyTimeSpent" value="14643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26606685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -261,7 +261,7 @@
     <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/iPila.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -274,25 +274,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/EvaluadorPostfix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="799">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/Calculadora.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EvaluadorPostfix/src/Main/Pila.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="559">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
