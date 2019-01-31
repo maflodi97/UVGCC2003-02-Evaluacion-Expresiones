@@ -24,30 +24,27 @@ implements iPila<E> {
 
     @Override
     public E pop(){
-    	// pre: el Vector no está vacío 
-    	// post: el último elemento "pusheado" es eliminado y mostrado.
+    	// pre: el Vector no estï¿½ vacï¿½o 
+    	// post: el ï¿½ltimo elemento "pusheado" es eliminado y mostrado.
         
-    	return vec.remove( vec.size()-1)
-    	/** CREO que no es necesario el If puesto que es un "pre" el que no esté vacio el stack
-    	 * pero no sé,¿ que piensan ustedes?
-    	if (!this.empty()){
-            return this.vec.get(this.vec.size() - 1);
-        } else{
-            return this.vec.get(0);
+    	return vec.remove(vec.size() - 1);
+    	/** CREO que no es necesario el If puesto que es un "pre" el que no estï¿½ vacio el stack
+    	 * pero no sï¿½,ï¿½ que piensan ustedes?
+    	Tenes toda la razon, no lei el pre.
             **/
-        }
+
     }
 
 	@Override
     public E peek(){
-    	// pre: el vector no está vacío
+    	// pre: el vector no estï¿½ vacï¿½o
     	// post: devuelve el valor de hasta arriba ( el siguiente a ser eliminado por "pop()" )
         return this.vec.get(this.vec.size() - 1);
     }
 
 	@Override
     public boolean empty(){
-		// post: Retorna si True si el vector está vacío
+		// post: Retorna si True si el vector estï¿½ vacï¿½o
 
         if (this.vec.isEmpty()){
             return true;
@@ -62,7 +59,8 @@ implements iPila<E> {
     }
 
     /**
-     * No entiendo que hace este metodo, o para qué lo usariamos.... :/
+     * No entiendo que hace este metodo, o para quï¿½ lo usariamos.... :/
+     * .. Al momento de instanciar el Stack no sabemos exactamente el tamaÃ±o de nuestro
      */
     public void crecer(int n){
         this.vec.setSize(n);

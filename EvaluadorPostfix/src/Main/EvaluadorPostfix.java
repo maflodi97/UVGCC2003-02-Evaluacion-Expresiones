@@ -20,7 +20,7 @@ public class EvaluadorPostfix{
     public static void main(String[] args) throws IOException, FileNotFoundException{
         BufferedReader br = null;
         FileReader fr = null;
-        String path = "";
+        final String path = "data.txt";
         //  tambien podria ser pasado como arg pero no se que es mas facil
         //  para los auxiliares.
         //  String path = args[0];
@@ -35,9 +35,17 @@ public class EvaluadorPostfix{
 
 
             while ((line = br.readLine()) != null){
-                //  process line
-                char[] chars = new char[line.length()];
-                //  creo que no es ni necesario esto porque vamos a iterar un string.
+                //  process line, lee la linea actual en el bufferedreader
+                //  asigna a String line, si asigna null ya no hay mas lineas.
+                for (char c: line.toCharArray()){
+                    /*
+                    Asignar primer char a Stack luego de revisar su tipo?
+                    0 - 9
+                    operadores
+                    espacio
+                    else / default
+                     */
+                }
             }
 
         } catch(IOException e){
