@@ -72,7 +72,7 @@ public class EvaluadorPostfix{
      * 
      * @return String todos los datos ingresados en el archivo de texto 
      */
-    private static String getDataFile(){
+    private static String getDataFile() throws IOException, FileNotFoundException{
         
         BufferedReader reader;
         File file;
@@ -82,11 +82,21 @@ public class EvaluadorPostfix{
                 
                 
                 reader = new BufferedReader(new FileReader(PATH_DATOS));
-                
                 while((linea = reader.readLine()) != null){
                     //concatenamos con un tabular la lectura de la linea,
                     //el tabular se eliminara al separar las expresiones.
+                    
                     datos += linea + "\t";
+                    for (char c: linea.toCharArray()){
+                        if (c == '+' || c == '-' || c == '\\' || c == '*'){
+                            // si esto se cumple es un operador
+
+                        } else if (c == ' '){
+                            continue;
+                        } else if (Integer.parseInt(c)){
+
+                        }
+                    }
                 
                 }
                 

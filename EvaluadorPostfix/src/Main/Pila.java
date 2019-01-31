@@ -28,7 +28,7 @@ implements iPila<E> {
     	// pre: el Vector no est� vac�o 
     	// post: el �ltimo elemento "pusheado" es eliminado y mostrado.
         
-    	return vec.remove(vec.size() - 1);
+        return vec.remove(vec.size() - 1);
     	/** CREO que no es necesario el If puesto que es un "pre" el que no est� vacio el stack
     	 * pero no s�,� que piensan ustedes?
     	Tenes toda la razon, no lei el pre.
@@ -38,6 +38,9 @@ implements iPila<E> {
 
 	@Override
     public E peek(){
+        /*
+        LO que escriba aqui va a salir en mi javadoc
+        */
     	// pre: el vector no est� vac�o
     	// post: devuelve el valor de hasta arriba ( el siguiente a ser eliminado por "pop()" )
         return this.vec.get(this.vec.size() - 1);
