@@ -1,13 +1,10 @@
-package Main;
+//package Main;
 //  Stack
 
 import java.util.Vector;
 
 public class Pila <E>
 implements iPila<E> {
-    //  todos estos metodos ya existen.
-    //  Puse String como generic como placeholder pero ahi
-    //  veremos a que lo cambiamos
 
     protected Vector<E> vec;
     
@@ -30,19 +27,13 @@ implements iPila<E> {
     	 */
         
         return vec.remove(vec.size() - 1);
-    	/** CREO que no es necesario el If puesto que es un "pre" el que no est� vacio el stack
-    	 * pero no s�,� que piensan ustedes?
-    	Tenes toda la razon, no lei el pre.
-            **/
-
+    	
     }
 
 	@Override
     public E peek(){
         /*
-        LO que escriba aqui va a salir en mi javadoc
-
-    	 pre: el vector no est� vac�o
+         pre: el vector no est� vac�o
     	 post: devuelve el valor de hasta arriba ( el siguiente a ser eliminado por "pop()" )
     	 */
         return this.vec.get(this.vec.size() - 1);
