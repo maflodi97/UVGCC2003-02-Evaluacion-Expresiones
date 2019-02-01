@@ -26,7 +26,8 @@ public class EvaluadorPostfix{
         BufferedReader br = null;
         FileReader fr = null;
         Pila pila = new Pila();
-        Calculadora calc = new Calculadora();
+        iCalculadora calc = new Calculadora();
+        //iCalculadora calc = new CalculadoraAndrea();
         double res = 0;
         double a, b;
         int cont = 1;
