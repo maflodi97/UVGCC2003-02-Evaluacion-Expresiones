@@ -16,7 +16,7 @@ public class EvaluadorPostfix{
 
     
 //    final static String PATH_DATOS = "datos.txt";
-    final static String PATH_DATOS = "C:\\Users\\gerap\\Documents\\GitHub\\UVGCC2003-02-Evaluacion-Expresiones\\EvaluadorPostfix\\src\\Main\\Main\\datos.txt";
+    final static String PATH_DATOS = "C:\\datos.txt";
     //identificador de los delimitadores para eliminarse en la informacion
     final static String DELIMITADOR = " \t\n\r\fABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz|°!\"#$%&()=?¡¿'\\´¨[]{}_-:.;,^`¬~";
     /**
