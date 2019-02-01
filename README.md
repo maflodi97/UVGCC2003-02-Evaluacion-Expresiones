@@ -14,7 +14,7 @@ NOTA: Para simplificar su programa, cada operando es entero y de un solo dígito
 
 ### Prueba de interfaz
 
-La implementación de la interfaz se realizo con la clase elaborada por el grupo conformado por <nombre>, la cual se encuentra dentro de la carpeta "Otras Implementaciones".
+La implementación de la interfaz se realizo con la clase elaborada por el grupo conformado por Andrea, la cual se encuentra dentro de la carpeta "Otras Implementaciones".
 
 
 ### Prerequisitos

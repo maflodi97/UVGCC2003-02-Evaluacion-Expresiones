@@ -7,9 +7,7 @@
  */
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.StringTokenizer;
-import java.util.Vector;
 
 
 public class EvaluadorPostfix{
@@ -23,11 +21,11 @@ public class EvaluadorPostfix{
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-        BufferedReader br = null;
-        FileReader fr = null;
         Pila pila = new Pila();
-        iCalculadora calc = new Calculadora();
-        //iCalculadora calc = new CalculadoraAndrea();
+        //iCalculadora calc = new Calculadora();
+        
+        //Implementación Andrea
+        iCalculadora calc = new CalculadoraAndrea();
         double res = 0;
         double a, b;
         int cont = 1;
