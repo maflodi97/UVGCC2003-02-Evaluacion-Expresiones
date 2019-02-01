@@ -69,7 +69,7 @@ public class EvaluadorPostfix{
                                     } else {
                                         res = calc.sumar((double)pila.pop(), (double)pila.pop());
                                         pila.push(res);
-
+                                        break; //
                                     }
 
                                 }
@@ -86,6 +86,7 @@ public class EvaluadorPostfix{
                                     } else {
                                         res = calc.restar((double)pila.pop(), (double)pila.pop());
                                         pila.push(res);
+                                        break;
                                     }
 
                                 }
@@ -101,7 +102,7 @@ public class EvaluadorPostfix{
                                     } else {
                                         res = calc.multiplicar((double)pila.pop(), (double)pila.pop());
                                         pila.push(res);
-
+                                        break;
                                     }
 
                                 }
@@ -118,6 +119,7 @@ public class EvaluadorPostfix{
                                     } else {
                                         res = calc.dividir((double)pila.pop(), (double)pila.pop());
                                         pila.push(res);
+                                        break;
                                     }
 
                                 }
